@@ -13,5 +13,8 @@ public class java05 {
 
 
         int A = scn.nextInt();
+
+        
+        System.out.println(A);
     }
 }

@@ -13,11 +13,17 @@ public class java05 {
 
 
         System.out.println("Number 1 is ");
-        int A = scn.nextInt();
+        // int A = scn.nextInt();
+        float A = scn.nextFloat();
         System.out.println("Number 2 is ");
-        int B = scn.nextInt();
+
+        // int B = scn.nextInt();
+        float B = scn.nextFloat();
+
         System.out.println("The sum of A and B is ");
-        int sum = A +B;
+
+        float sum =  A + B ;
+
         System.out.println(sum);
 
 

@@ -14,7 +14,7 @@ public class java04 {
          double  number = 1.2555;
 
          System.out.println (number);
-
+    //   dflkdjfkdlfdkfkdfkldfdflk
 
     }
 }

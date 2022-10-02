@@ -12,9 +12,19 @@ public class java05 {
         Scanner scn = new Scanner(System.in);
 
 
+        System.out.println("Number 1 is ");
         int A = scn.nextInt();
+        System.out.println("Number 2 is ");
+        int B = scn.nextInt();
+        System.out.println("The sum of A and B is ");
+        int sum = A +B;
+        System.out.println(sum);
 
-        
-        System.out.println(A);
+
+        // System.out.println("The Number of is A: "+ A);
+
+
+
+
     }
 }

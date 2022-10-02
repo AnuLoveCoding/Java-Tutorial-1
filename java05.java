@@ -11,6 +11,8 @@ public class java05 {
 
         Scanner scn = new Scanner(System.in);
 
+        // // boolean tr = scn.hasNextInt();
+        // // System.out.println(tr);
 
         System.out.println("Number 1 is ");
         // int A = scn.nextInt();
@@ -26,6 +28,13 @@ public class java05 {
 
         System.out.println(sum);
 
+        
+        // System.out.println("Enter your name please ");
+        // String str = scn.nextLine(); //only next for sing line print, Line use for whole sentence to  print.
+
+        // System.out.println("My name is: " + str);
+
+        // System.out.println("Thank you:)");
 
         // System.out.println("The Number of is A: "+ A);
 

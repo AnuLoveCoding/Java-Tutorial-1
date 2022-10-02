@@ -7,7 +7,7 @@ public class java05 {
     public static void main(String[] args) {
 
 
-        System.out.println("Taking Input From-Java");
+        System.out.println("Taking Input From-User");
 
         Scanner scn = new Scanner(System.in);
 

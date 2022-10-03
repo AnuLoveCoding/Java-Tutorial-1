@@ -30,9 +30,24 @@ public class java10 {
         int c = ++j;
         System.out.println(c);
 
+        int b = 80;
+        System.out.println(b--);
+        System.out.println(b);
+        System.out.println(--b);
+        System.out.println(b);
+        System.out.println(b+2);
 
 
+            // quickk quiz: what will be the vallue of the following expression(x);
+                int y = 7;
+                int x = ++y*8;
+                System.out.println(x);
 
+            //  quick quiz: what will be the value of the following expression(a);
+
+            char ch = 'A';  // in char always use to increment always use single quotes('');
+            System.out.println(++ch);
+            System.out.println(++ch);
 
 
 

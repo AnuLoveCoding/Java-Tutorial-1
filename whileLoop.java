@@ -23,6 +23,7 @@ public class whileLoop {
 
 
             int i = A;
+            
             int Product = 1;
 
             while(i>0){
@@ -30,10 +31,7 @@ public class whileLoop {
                 Product*=i; {
 
                 }
-               
-
-
-                i--;
+                    i--;
             }
             System.out.println(Product);
 

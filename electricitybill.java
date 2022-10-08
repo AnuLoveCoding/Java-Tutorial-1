@@ -11,7 +11,7 @@ public class electricitybill {
 
         System.out.println("Enter Your Unit:");
 
-        // System.out.print("\u20B9");
+        
 
         int Unit = scn.nextInt();
         System.out.println("Your Bill: ₹ ");

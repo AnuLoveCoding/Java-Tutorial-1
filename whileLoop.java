@@ -12,14 +12,32 @@ public class whileLoop {
 
         int A = sc.nextInt();
 
-      int i = 1;
+            //   int i = 1;
 
-      while(i<=A){
+            //   while(i<=A){
 
-        System.out.print(i+" ");
+            //     System.out.print("i:"+i+", ");
 
-        i++;
-      }
+            //     i++;
+            //   }
+
+
+            int i = A;
+            int Product = 1;
+
+            while(i>0){
+
+                Product*=i; {
+
+                }
+               
+
+
+                i--;
+            }
+            System.out.println(Product);
+
+
 
 
 

@@ -22,20 +22,21 @@ public class whileLoop {
             //   }
 
 
-            int i = A;
+            // int i = A;
             
-            int Product = 1;
+            // int Product = 1;
 
-            while(i>0){
+            // while(i>0){
 
-                Product*=i; {
+            //     Product*=i; {
 
-                }
-                    i--;
-            }
-            System.out.println(Product);
+            //     }
+            //         i--;
+            // }
+            // System.out.println(Product);
 
 
+            
 
 
 

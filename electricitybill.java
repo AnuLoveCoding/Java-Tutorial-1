@@ -12,7 +12,7 @@ public class electricitybill {
         System.out.println("Enter Your Unit:");
 
         
-
+        
         int Unit = scn.nextInt();
         System.out.println("Your Bill: ₹ ");
         // First 50 unit;

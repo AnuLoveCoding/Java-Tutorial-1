@@ -7,10 +7,10 @@ public class whileLoop {
 
 
         // print 1 to N;
-        System.out.println("Enter Your Number:");
+        // System.out.println("Enter Your Number:");
         // System.out.println("Here Your N");
 
-        int A = sc.nextInt();
+        // int A = sc.nextInt();
 
             //   int i = 1;
 
@@ -35,10 +35,25 @@ public class whileLoop {
             // }
             // System.out.println(Product);
 
-
+            // Find the power 2 to the power 10;
             
+            System.out.println("Enter Your A");
+            int A = sc.nextInt();
 
+            System.out.println("Enter Your B");
+            int B = sc.nextInt();
 
+            int product = 1;
+
+            while(B>0){
+
+                product*=A;
+
+                B=B-1;
+            }
+            
+            System.out.println("Enter Your Result:");
+            System.out.println(product);
 
 
 

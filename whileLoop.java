@@ -3,7 +3,137 @@ import java.util.Scanner;
 public class whileLoop {
     public static void main(String[] args) {
         
-        Scanner sc =  new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter Your Number: ");
+        int n = sc.nextInt();
+            // if we  found n,0 the simly print 0;
+        if(n==0){
+
+            System.out.println("0");
+
+
+        }
+        // This logic reson for negative number change into positive number;
+        else
+         if(n<0){
+            n = -n;  
+        }
+            while(n>0){
+                int rem = n%10;
+
+
+                System.out.print(rem);
+
+
+                n/=10;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         // print 1 to N;
@@ -37,23 +167,24 @@ public class whileLoop {
 
             // Find the power 2 to the power 10;
             
-            System.out.println("Enter Your A");
-            int A = sc.nextInt();
+            // System.out.println("Enter Your A");
+            // int A = sc.nextInt();
 
-            System.out.println("Enter Your B");
-            int B = sc.nextInt();
+            // System.out.println("Enter Your B");
+            // int B = sc.nextInt();
 
-            int product = 1;
+            // int product = 1;
 
-            while(B>0){
+            // while(B>0){
 
-                product*=A;
+            //     product*=A;
 
-                B=B-1;
-            }
+            //     B=B-1;
+            // }
             
-            System.out.println("Enter Your Result:");
-            System.out.println(product);
+            // System.out.println("Enter Your Result:");
+            // System.out.println(product);
+
 
 
 

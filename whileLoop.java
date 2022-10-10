@@ -12,10 +12,9 @@ public class whileLoop {
 
             System.out.println("0");
 
+            // This logic reson for negative number change into positive number;
 
-        }
-        // This logic reson for negative number change into positive number;
-        else
+        } else
          if(n<0){
             n = -n;  
         }

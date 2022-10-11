@@ -217,12 +217,12 @@ public class whileLoop {
                 long Digit = N%10L;
             if(Digit%2!=0){
 
-                    sumOdd+=N%10;
+                    sumOdd+=N%10L;
                     count++;
 
                 }else if(Digit%2==0){
 
-                    sumEven+=N%10;
+                    sumEven+=N%10L;
                     count1++;
                 }
                    

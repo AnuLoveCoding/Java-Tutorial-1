@@ -186,7 +186,23 @@ public class whileLoop {
             // System.out.println(count);
             // System.out.println(div);
 
+        //  find the oddsum and evensum in a number;
 
+        int num = 10;
+        int sumOdd= 0;
+        int sumEven= 0;
+        int i=1;
+
+        while(i<=num){
+            if(i%2==0){
+                sumOdd+=i;
+            }else {
+                sumEven+=i;
+            }
+            i++;
+        }
+        System.out.println(sumOdd);
+        System.out.println(sumEven);
 
     }
 }

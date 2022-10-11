@@ -44,18 +44,18 @@ public class whileLoop {
 
 
 
-        int A = 2;
-        int B = 3;
-        int product = 1;
+        // int A = 2;
+        // int B = 3;
+        // int product = 1;
 
-        while (B>0){
+        // while (B>0){
 
 
-            product*=A;
+        //     product*=A;
 
-            B-=1;
-        }
-        System.out.println(product);
+        //     B-=1;
+        // }
+        // System.out.println(product);
 
         // print 1 to N;
         // System.out.println("Enter Your Number:");
@@ -107,6 +107,84 @@ public class whileLoop {
             // System.out.println(product);
 
 
+            // print the last digt of number and sum;
+
+            // long i= 4554655456445687787l;
+
+            //     if(i==0){
+            //         System.out.println(0);
+            //     }
+            //      else if(i<0){
+            //         i = -i;
+            //     }
+            //     while(i>0){
+
+            //         long sum = i%10;
+
+            //         System.out.print(sum+" ");
+
+            //         i/=10;
+            //     }
+
+        // //    find the number divisible of 35 till 1 and count it
+        //         long i=454546456656556L;
+        //        long count=0L;
+        //         while(i>1){
+        //             i/=5;
+        //             count++;
+        //         }
+
+        //             System.out.println(count);
+
+    //   find the sum of Number
+        //     int A = 5;
+        //     int sum = 0;
+        //     int i=1;
+
+        //     while (i<=A){
+        //         sum = sum+i;
+        //         i++;
+        //     }
+        // System.out.println(sum);
+
+        // find the product Odd-number of Number sumof number;
+
+        // int A = 5;
+        // int i=1;
+        // int multi = 1;
+        // int sum =0;
+
+        // while(i<=A){
+        //     if(i%2==0){
+        //         sum+=i;
+                
+        //     }else if(i%2!=0){
+        //         multi*=i;
+        //     }
+        //  i++;
+        // }
+
+        // System.out.println("The sum of i is "+ sum);
+        // System.out.println("The multiply is "+ multi);
+
+
+            // find the divisible of Number:
+
+            // int A = 115;
+            // int  i=1;
+            // int count =0;
+            // int div =1;
+
+
+            // while(i<=A){
+            //     div/=A;
+            //     count++;
+            //     i++;
+            // }
+
+
+            // System.out.println(count);
+            // System.out.println(div);
 
 
 

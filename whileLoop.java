@@ -5,135 +5,57 @@ public class whileLoop {
         
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter Your Number: ");
-        int n = sc.nextInt();
-            // if we  found n,0 the simly print 0;
-        if(n==0){
+    //     int n = 25364;
+    //     int sum = 0;
+    //     while(n > 0) {
+    //         int ld = n % 10;
+    //          sum += ld;
+    //          System.out.print(ld + " ");
+    //          n = n / 10;
+    //      }
+    //      System.out.print(sum);
+    //  }
 
-            System.out.println("0");
+        // System.out.println("Enter Your Number: ");
+        // int n = sc.nextInt();
+        //     // if we  found n,0 the simly print 0;
+        // if(n==0){
 
-            // This logic reson for negative number change into positive number;
+        //     System.out.println("0");
 
-        } else
-         if(n<0){
-            n = -n;  
+        //     // This logic reson for negative number change into positive number;
+
+        // } else
+        //  if(n<0){
+        //     n = -n;  
+        // }
+        //     while(n>0){
+        //         int rem = n%10;
+
+
+        //         System.out.print(rem);
+
+
+        //         n/=10;
+        //     }
+
+
+
+
+
+
+        int A = 2;
+        int B = 3;
+        int product = 1;
+
+        while (B>0){
+
+
+            product*=A;
+
+            B-=1;
         }
-            while(n>0){
-                int rem = n%10;
-
-
-                System.out.print(rem);
-
-
-                n/=10;
-            }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println(product);
 
         // print 1 to N;
         // System.out.println("Enter Your Number:");

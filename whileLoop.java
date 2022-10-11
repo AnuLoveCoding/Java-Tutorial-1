@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class whileLoop {
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);
 
     //     int n = 25364;
     //     int sum = 0;
@@ -188,21 +188,50 @@ public class whileLoop {
 
         //  find the oddsum and evensum in a number;
 
-        int num = 10;
-        int sumOdd= 0;
-        int sumEven= 0;
-        int i=1;
+        // int num = 10;
+        // int sumOdd= 0;
+        // int sumEven= 0;
+        // int i=1;
 
-        while(i<=num){
-            if(i%2==0){
-                sumOdd+=i;
-            }else {
-                sumEven+=i;
+        // while(i<=num){
+        //     if(i%2==0){
+        //         sumOdd+=i;
+        //     }else {
+        //         sumEven+=i;
+        //     }
+        //     i++;
+        // }
+        // System.out.println(sumOdd);
+        // System.out.println(sumEven);
+
+        // You have a number N, you have to write a code to find odd digit sum and even digit sum from given number and print it.
+        // int N = scn.nextInt();
+        System.out.println("Enter your number");
+            long N = scn.nextLong();
+
+            long sumOdd = 0 ,  sumEven = 0;
+            int count =0 , count1=0;
+            
+           
+            while(N>0){
+                long Digit = N%10L;
+            if(Digit%2!=0){
+
+                    sumOdd+=N%10;
+                    count++;
+
+                }else if(Digit%2==0){
+
+                    sumEven+=N%10;
+                    count1++;
+                }
+                   
+                N/=10;
             }
-            i++;
-        }
-        System.out.println(sumOdd);
-        System.out.println(sumEven);
+        System.out.println("Sum of Odd Digit : " +sumOdd);
+        System.out.println("The count of Odd-Number is "+count);
+        System.out.println("Sum of Even Digit : " +sumEven);
+        System.out.println("The count of Even-Number is "+count1);
 
     }
 }

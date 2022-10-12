@@ -12,21 +12,21 @@ public class whileLoop {
         // long T = scn.nextLong();
 
         // while(T>0){
-            System.out.println("Enter Your Second Number:");
-            int N= scn.nextInt();
-            int ld = N%10;
-            int fd = 0;
+            // System.out.println("Enter Your Second Number:");
+            // int N= scn.nextInt();
+            // int ld = N%10;
+            // int fd = 0;
                
-            for( ; N>0 ;  N/=10){
-                int rem = N%10;
-                fd = rem;
-               ;
+            // for( ; N>0 ;  N/=10){
+            //     int rem = N%10;
+            //     fd = rem;
+            //    ;
                
                 
-            }
-            System.out.println("Here Your Result:");
-            System.out.println(ld);
-             System.out.println(fd);
+            // }
+            // System.out.println("Here Your Result:");
+            // System.out.println(ld);
+            //  System.out.println(fd);
                 
 
         //     T--;
@@ -83,15 +83,15 @@ public class whileLoop {
 
 
 
-    //     int n = 25364;
-    //     int sum = 0;
-    //     while(n > 0) {
-    //         int ld = n % 10;
-    //          sum += ld;
-    //          System.out.print(ld + " ");
-    //          n = n / 10;
-    //      }
-    //      System.out.print(sum);
+        // int n = 25364;
+        // int sum = 0;
+        // while(n > 0) {
+        //     int ld = n % 10;
+        //      sum += ld;
+        //      System.out.print(ld + " ");
+        //      n = n / 10;
+        //  }
+        //  System.out.print(sum);
     //  }
 
         // System.out.println("Enter Your Number: ");

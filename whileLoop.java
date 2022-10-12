@@ -5,6 +5,84 @@ public class whileLoop {
         
         Scanner scn = new Scanner(System.in);
 
+        // Given a number(+ve),Print its first and last digit.
+        // System.out.println("Enter Your Number: ");
+
+        // System.out.println("Enter Your Number:");
+        // long T = scn.nextLong();
+
+        // while(T>0){
+            System.out.println("Enter Your Second Number:");
+            int N= scn.nextInt();
+            int ld = N%10;
+            int fd = 0;
+               
+            for( ; N>0 ;  N/=10){
+                int rem = N%10;
+                fd = rem;
+               ;
+               
+                
+            }
+            System.out.println("Here Your Result:");
+            System.out.println(ld);
+             System.out.println(fd);
+                
+
+        //     T--;
+            
+        // }
+       
+        
+        
+        
+        // Q. print the number in reverse direction;
+        // System.out.println("Enter Your Number:");
+        // long N = scn.nextLong();
+        // // int ld = N%10;
+        // // int fd = 0;
+        //  int i=0;
+
+        //  if(N==0){
+        //     System.out.println(0);
+        //  }
+        // else if(N<0){
+        //     N =-N;
+        //  }
+        // while(N>i){
+        //     long rem = N%10L;
+        //     // System.out.println("Your result is: ");
+        //     System.out.print(rem+" ");
+        //     N/=10;
+        // }
+        
+
+        // int i = 0;
+        // for(i = 0; i < 5; i++) {
+        //  }
+        //  System.out.print(i + " ");
+
+        
+        // for(int i = 10; i <= 5; i--) {
+            // System.out.print(i + " ");
+        // }
+
+        // for(int i = 1; i <= 10; i++) {
+        //     System.out.print(i++ + " ");
+        // }
+        
+        // for(int i = 1; i <= 20; i = i * 2) {
+        //     System.out.print("Hello ");
+        // }
+
+                // for(int i = 11; i < 10; i++) {
+                //     System.out.print(100 / 0);
+                // }
+        
+
+
+
+
     //     int n = 25364;
     //     int sum = 0;
     //     while(n > 0) {
@@ -206,32 +284,32 @@ public class whileLoop {
 
         // You have a number N, you have to write a code to find odd digit sum and even digit sum from given number and print it.
         // int N = scn.nextInt();
-        System.out.println("Enter your number");
-            long N = scn.nextLong();
+        // System.out.println("Enter your number");
+        //     long N = scn.nextLong();
 
-            long sumOdd = 0 ,  sumEven = 0;
-            int count =0 , count1=0;
+        //     long sumOdd = 0 ,  sumEven = 0;
+        //     int count =0 , count1=0;
             
            
-            while(N>0){
-                long Digit = N%10L;
-            if(Digit%2!=0){
+        //     while(N>0){
+        //         long Digit = N%10L;
+        //     if(Digit%2!=0){
 
-                    sumOdd+=N%10L;
-                    count++;
+        //             sumOdd+=N%10L;
+        //             count++;
 
-                }else if(Digit%2==0){
+        //         }else if(Digit%2==0){
 
-                    sumEven+=N%10L;
-                    count1++;
-                }
+        //             sumEven+=N%10L;
+        //             count1++;
+        //         }
                    
-                N/=10;
-            }
-        System.out.println("Sum of Odd Digit : " +sumOdd);
-        System.out.println("The count of Odd-Number is "+count);
-        System.out.println("Sum of Even Digit : " +sumEven);
-        System.out.println("The count of Even-Number is "+count1);
+        //         N/=10;
+        //     }
+        // System.out.println("Sum of Odd Digit : " +sumOdd);
+        // System.out.println("The count of Odd-Number is "+count);
+        // System.out.println("Sum of Even Digit : " +sumEven);
+        // System.out.println("The count of Even-Number is "+count1);
 
     }
 }

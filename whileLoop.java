@@ -204,15 +204,15 @@ public class whileLoop {
             //         i/=10;
             //     }
 
-        // //    find the number divisible of 35 till 1 and count it
-        //         long i=454546456656556L;
-        //        long count=0L;
-        //         while(i>1){
-        //             i/=5;
-        //             count++;
-        //         }
+        //    find the number divisible of 35 till 1 and count it
+            //     long i=35L;
+            //    int  count=0;
+            //     while(i>1){
+            //         i/=5;
+            //         count++;
+            //     }
 
-        //             System.out.println(count);
+            //         System.out.println(count);
 
     //   find the sum of Number
         //     int A = 5;
